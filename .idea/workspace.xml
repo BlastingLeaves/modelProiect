@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccb9cc8d-a9d2-4492-a4c6-3d1289e9f470" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/alinapindic.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/tailwind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/ab_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/default-avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/stabo-icon64px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/stabo_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/stabo_logo_contrast.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/buttons/close.button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/buttons/sidebar-menu.button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icon/icons-lib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icon/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/page-container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/redux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigation/app-bar-body.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigation/app-bar-dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigation/app-bar-logo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigation/app-bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigation/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigation/nav-link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Dashboard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/globals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,8 +105,16 @@
       <option name="presentableId" value="Default" />
       <updated>1584355782909</updated>
       <workItem from="1584355785021" duration="4897000" />
-      <workItem from="1584439367173" duration="1864000" />
+      <workItem from="1584439367173" duration="2578000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1584535127697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584535127697</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,12 +122,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584356041541">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.798/1440.23.1920.1057@0.23.1440.798" timestamp="1584356041541" />
+    <state x="322" y="23" key="CommitChangelistDialog2" timestamp="1584535127227">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="322" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1584535127227" />
     <state width="1419" height="185" key="GridCell.Tab.0.bottom" timestamp="1584357504495">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -182,6 +158,10 @@
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.23.1440.798/1440.23.1920.1057@0.23.1440.798" timestamp="1584356056273" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1584535261342">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1584535261342" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
