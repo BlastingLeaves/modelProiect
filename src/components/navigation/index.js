@@ -2,6 +2,7 @@ import React from "react";
 // import {push} from "connected-react-router";
 // import {connect} from 'react-redux'
 import AppBar from "./app-bar";
+import './styles.scss'
 
 
 
@@ -12,7 +13,7 @@ import AppBar from "./app-bar";
 //     }
 // })
 const Navbar = () =>
-    <nav className='bg-primary relative  items-center justify-between'>
+    <nav className='bg-secondaryLight '>
         <AppBar/>
     </nav>
 

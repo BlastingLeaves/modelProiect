@@ -9,10 +9,10 @@ import AppBarDropdown from "./app-bar-dropdown";
 const AppBar = () =>{
     const [opened, toggleOpened] = useState(false);
 
-    return <div className="relative flex items-center justify-between h-16">
+    return <div className="navHeight items-center justify-between">
 
             {/*div pt button de menu*/}
-            <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <div className="absolute left-0 flex items-center sm:hidden">
                 {/*button menu*/}
                 <SidebarMenu
                     className="text-secondary"

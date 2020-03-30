@@ -1,11 +1,21 @@
 import React from "react"
+import Navbar from "../navigation";
+import Footer from "../footer";
 
-// import Footer from "../_local-lib/footer"
+
 
 const PageContainer = props =>
-    <div className=' fill flex bg-primary center justify-center'>
-        {props.children}
-        {/*<Footer/>*/}
-    </div>
+    <>
+        <div className="app-header">
+            <Navbar/>
+        </div>
+        <div className='app-page'>
+            {props.children}
+        </div>
+        <footer className='app-footer'>
+            <Footer/>
+        </footer>
 
+
+    </>
 export default PageContainer

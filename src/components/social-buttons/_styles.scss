@@ -1,0 +1,44 @@
+.social-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  padding-left: 25%;
+  padding-right: 25%;
+
+}
+
+.social-follow-container{
+  padding: 5px;
+  display: inline-block;
+  display: grid;
+
+}
+a.social{
+  //margin: 0 1rem;
+  transition: transform 250ms;
+
+}
+
+a.social:hover{
+  transform: translate(-2px);
+}
+h4{
+  position: relative;
+  align-items: center;
+}
+
+a.youtube{
+  color: #c30000;
+}
+
+a.facebook{
+  color: rgba(70, 92, 160, 1);
+}
+a.instagram{
+  color: black;
+}
+a.whatsapp{
+  color: rgb(28, 142, 24);
+}
