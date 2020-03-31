@@ -12,15 +12,14 @@ const ProducerCard = () =>
 
         <div className='containerProd inline flex justify-center center'
              >
-                <div className='text1 text-center px-5 py-4 text-secondaryLight bg-primary'
+                <div className='text1 text-center px-5 py-2 sm:py-5 text-secondaryLight bg-primary'
                      data-aos='fade-right'>
-                    <h1 className='pb-3'>Lorems</h1>
+                    <h1 className='titleProd pb-2 sm:pb-3'>Lorems</h1>
 
-                    <h5>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    <h5 className='miniTextProd'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
                         as opposed to using 'Content here, content here', making it look like readable English.
-                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-                        and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</h5>
+                        </h5>
                 </div>
 
                 <div>
@@ -33,15 +32,14 @@ const ProducerCard = () =>
                 <img src={BW2} className='pic2 relative flex ' data-aos='fade-right' alt='pic2'/>
             </div>
 
-            <div className='text1 text-center px-5 py-4 text-secondaryLight bg-primary'
+            <div className='text1 text-center px-5 py-2 sm:py-5 text-secondaryLight bg-primary'
             data-aos='fade-left'>
-                <h1 className='pb-3'>Lorems</h1>
+                <h1 className='titleProd pb-2 sm:pb-3'>Lorems</h1>
 
-                <h5>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                <h5 className='miniTextProd'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
                     as opposed to using 'Content here, content here', making it look like readable English.
-                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-                    and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</h5>
+                   </h5>
             </div>
 
         </div>

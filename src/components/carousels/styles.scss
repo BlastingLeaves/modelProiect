@@ -34,7 +34,7 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 
 }
 
@@ -73,6 +73,7 @@
   position: relative;
 }
 .miniTextTop{
+  font-size: 10px;
   position: relative;
 }
 
@@ -89,3 +90,23 @@
   animation: heartbeat 3s infinite;
 }
 
+@media screen and (max-width: 636px){
+  .titleTop{
+    font-size: 10px;
+    position: relative;
+  }
+  .miniTextTop{
+    position: relative;
+    font-size: 5px;
+  }
+}
+@media screen and (min-width: 700px){
+  .titleTop{
+    font-size: 20px;
+    position: relative;
+  }
+  .miniTextTop{
+    position: relative;
+    font-size: 10px;
+  }
+}

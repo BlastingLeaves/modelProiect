@@ -1,11 +1,12 @@
 
 .containerProd{
   height: 250px;
+  padding-top: 20px;
 }
 
 .textProd{
   z-index: 1;
-  top: -13px;
+  top: -10px;
   position: relative;
   padding-left: 20%;
 }
@@ -15,9 +16,15 @@
   position: relative;
   max-width: 250px;
   max-height: 170px;
-  font-size: 8px;
   box-shadow: 0 1px 3px 1px black;
-
+}
+.miniTextProd{
+  font-size: 8px;
+  position: relative;
+}
+.textProd{
+  font-size: 14px;
+  position: relative;
 }
 
 .pic1 {
@@ -25,7 +32,7 @@
   max-height: 350px;
   position: relative;
   left: -20px;
-  top: -85px;
+  top: -100px;
 }
 .pic2{
   max-width: 230px;
@@ -36,3 +43,43 @@
 }
 
 
+@media screen and (max-width: 636px){
+  .titleProd{
+    font-size: 10px;
+    position: relative;
+
+  }
+  .miniTextProd{
+    position: relative;
+    font-size: 5px;
+
+  }
+  .text1{
+    width: 150px;
+    height: 100px;
+    top:-10px;
+  }
+.containerProd{
+  height: 180px;
+}
+  .pic1{
+    max-width: 130px;
+    max-height: 250px;
+    top: -80px;
+  }
+  .pic2{
+    max-width: 130px;
+    max-height: 250px;
+  }
+}
+
+@media screen and (min-width: 700px){
+  .titleProd{
+    font-size: 14px;
+    position: relative;
+  }
+  .miniTextProd{
+    position: relative;
+    font-size: 8px;
+  }
+}

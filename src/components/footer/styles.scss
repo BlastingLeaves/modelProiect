@@ -2,6 +2,7 @@
   width: 100%;
   height: 100px;
   bottom: 0;
+  display: flex;
 }
 
 .contactContainer{
@@ -21,9 +22,11 @@
 
 .containerSocial{
   z-index: 1;
-  top: -13px;
+  top: -16px;
   position: relative;
-  padding-left: 25%;
+  display: inline-block;
+  align-items: center;
+  padding-left: 20%;
 }
 .bookLogo{
   right: 0;
@@ -32,10 +35,37 @@
 }
 
 .textContact{
-  padding-right: 25%;
-  padding-left: 25%;
+  padding-left: 10%;
+  font-size: 20px;
 }
 
 .textRights{
   font-size: 6px;
+}
+
+@media screen and (max-width: 636px){
+  .footerContainer{
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
+  //.contactContainer{
+  //  margin-left: 10%;
+  //}
+  .containerSocial{
+    padding-top: 20px;
+    display: inline-block;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 700px){
+  .footerContainer{
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+  }
+
 }
