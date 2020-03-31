@@ -2,45 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccb9cc8d-a9d2-4492-a4c6-3d1289e9f470" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/Artist.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/BW1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/BW2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/EDITOR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/Studio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/AboutCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/ProdCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cards/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/carousels/carouselType1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/carousels/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigation/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/social-buttons/_styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/social-buttons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/0-Welcome.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/1-Button.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/6-navbar.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/alinapindic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/alinapindic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/_easing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/aos.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/ab_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/ab_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/card/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icon/icons-lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icon/icons-lib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/page-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/page-container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/app-bar-body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/app-bar-body.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/app-bar-dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/app-bar-dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/app-bar-logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/app-bar-logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/app-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/app-bar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Dashboard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cards/AboutCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/AboutCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cards/ProdCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/ProdCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cards/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carousels/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carousels/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/scss" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -91,18 +65,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/img" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/stories" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/constants" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components/layout" />
       <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/scss" />
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/stories" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="npm.storybook">
@@ -160,6 +134,7 @@
       <workItem from="1584439367173" duration="18189000" />
       <workItem from="1584783789309" duration="5949000" />
       <workItem from="1584806122609" duration="51062000" />
+      <workItem from="1585646103205" duration="4443000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1584535127697</created>
@@ -188,38 +163,39 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="322" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1584535127227" />
-    <state width="1419" height="185" key="GridCell.Tab.0.bottom" timestamp="1585140612713">
+    <state width="1419" height="98" key="GridCell.Tab.0.bottom" timestamp="1585649105212">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="185" key="GridCell.Tab.0.bottom/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585140612713" />
+    <state width="1419" height="98" key="GridCell.Tab.0.bottom/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585649105212" />
     <state width="1419" height="185" key="GridCell.Tab.0.bottom/0.23.1440.801/1440.23.1920.1057@0.23.1440.801" timestamp="1584356756728" />
-    <state width="1419" height="185" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.977@0.23.1440.877" timestamp="1584357504495" />
-    <state width="1419" height="185" key="GridCell.Tab.0.center" timestamp="1585140612702">
+    <state width="1419" height="185" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.977@0.23.1440.877" timestamp="1585593031172" />
+    <state width="1419" height="98" key="GridCell.Tab.0.center" timestamp="1585649105211">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="185" key="GridCell.Tab.0.center/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585140612702" />
+    <state width="1419" height="98" key="GridCell.Tab.0.center/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585649105211" />
     <state width="1419" height="185" key="GridCell.Tab.0.center/0.23.1440.801/1440.23.1920.1057@0.23.1440.801" timestamp="1584356756686" />
-    <state width="1419" height="185" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.977@0.23.1440.877" timestamp="1584357504494" />
-    <state width="1419" height="185" key="GridCell.Tab.0.left" timestamp="1585140612700">
+    <state width="1419" height="185" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.977@0.23.1440.877" timestamp="1585593031171" />
+    <state width="1419" height="98" key="GridCell.Tab.0.left" timestamp="1585649105209">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="185" key="GridCell.Tab.0.left/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585140612700" />
+    <state width="1419" height="98" key="GridCell.Tab.0.left/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585649105209" />
     <state width="1419" height="185" key="GridCell.Tab.0.left/0.23.1440.801/1440.23.1920.1057@0.23.1440.801" timestamp="1584356756668" />
-    <state width="1419" height="185" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.977@0.23.1440.877" timestamp="1584357504494" />
-    <state width="1419" height="185" key="GridCell.Tab.0.right" timestamp="1585140612706">
+    <state width="1419" height="185" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.977@0.23.1440.877" timestamp="1585593031170" />
+    <state width="1419" height="98" key="GridCell.Tab.0.right" timestamp="1585649105212">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1419" height="185" key="GridCell.Tab.0.right/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585140612706" />
+    <state width="1419" height="98" key="GridCell.Tab.0.right/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585649105212" />
     <state width="1419" height="185" key="GridCell.Tab.0.right/0.23.1440.801/1440.23.1920.1057@0.23.1440.801" timestamp="1584356756706" />
-    <state width="1419" height="185" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.977@0.23.1440.877" timestamp="1584357504495" />
+    <state width="1419" height="185" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.977@0.23.1440.877" timestamp="1585593031172" />
     <state x="229" y="60" key="SettingsEditor" timestamp="1584356056273">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.23.1440.798/1440.23.1920.1057@0.23.1440.798" timestamp="1584356056273" />
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1584535261342">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="320" y="170" key="Vcs.Push.Dialog.v2" timestamp="1585653677914">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1584535261342" />
+    <state x="320" y="170" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.23.1920.977@0.23.1440.877" timestamp="1585653677914" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,11 +7,13 @@ const ProducerCard = () =>
     <div className='w-full lg:max-w-full lg:flex bg-primary items-center pb-16'>
 
         <div>
-            <h1 className='textProd text-secondaryLight pb-5 center'>PRODUCATORI</h1>
+            <h1 className='textProd text-secondaryLight center' data-aos='fade'>PRODUCATORI</h1>
         </div>
 
-        <div className='containerProd inline flex justify-center center'>
-                <div className='text1 text-center px-5 py-4 text-secondaryLight bg-primary'>
+        <div className='containerProd inline flex justify-center center'
+             >
+                <div className='text1 text-center px-5 py-4 text-secondaryLight bg-primary'
+                     data-aos='fade-right'>
                     <h1 className='pb-3'>Lorems</h1>
 
                     <h5>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
@@ -22,16 +24,17 @@ const ProducerCard = () =>
                 </div>
 
                 <div>
-                    <img src={BW1} className='pic1 relative flex ' alt='pic1'/>
+                    <img src={BW1} className='pic1 relative flex' data-aos='fade-left' alt='pic1'/>
                 </div>
         </div>
 
         <div className='containerProd inline flex justify-center center'>
             <div>
-                <img src={BW2} className='pic2 relative flex ' alt='pic2'/>
+                <img src={BW2} className='pic2 relative flex ' data-aos='fade-right' alt='pic2'/>
             </div>
 
-            <div className='text1 text-center px-5 py-4 text-secondaryLight bg-primary'>
+            <div className='text1 text-center px-5 py-4 text-secondaryLight bg-primary'
+            data-aos='fade-left'>
                 <h1 className='pb-3'>Lorems</h1>
 
                 <h5>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
