@@ -5,6 +5,8 @@ import freeze from 'redux-freeze'
 import {createBrowserHistory} from 'history'
 import createRootReducer from './reducer'
 
+
+
 //Router middleware setup
 export const history = createBrowserHistory()
 

@@ -4,7 +4,7 @@ import BW1 from './../../assets/img/BW1.png'
 import BW2 from './../../assets/img/BW2.png'
 
 const ProducerCard = () =>
-    <div className='w-full lg:max-w-full lg:flex bg-primary items-center pb-16'>
+    <div className='w-full lg:max-w-full lg:flex bg-primary items-center pb-6'>
 
         <div>
             <h1 className='textProd text-secondaryLight center' data-aos='fade'>PRODUCATORI</h1>

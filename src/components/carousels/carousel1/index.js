@@ -1,14 +1,14 @@
 import React from "react"
-import Artist from './../../assets/img/Artist.png'
-import Editor from './../../assets/img/EDITOR.png'
-import Studio from './../../assets/img/Studio.png'
+import Artist from '../../../assets/img/Artist.png'
+import Editor from '../../../assets/img/EDITOR.png'
+import Studio from '../../../assets/img/Studio.png'
 import Carousel from "react-material-ui-carousel"
-import book from './../../assets/img/book.png'
+import book from '../../../assets/img/book.png'
 import './styles.scss'
 
 
 
-const CarouselType1 = () =>
+const Index = () =>
     <div className='containerTop w-full lg:max-w-full lg:flex' >
             <div className='textTop text-center px-5 py-4 text-secondaryLight bg-primary '>
                 <h1 className='titleTop pb-6 pt-8'>DESPRE NOI</h1>
@@ -33,4 +33,4 @@ const CarouselType1 = () =>
             </div>
         </Carousel>
     </div>
-export default CarouselType1
+export default Index
