@@ -1,7 +1,7 @@
 import React from "react";
 import AboutCard from "../../cards/AboutCard";
 import ProducerCard from "../../cards/ProdCard";
-import Index from "../../carousels/carousel1";
+import CarouselType1 from "../../carousels/carousel1";
 import CarouselType2 from "../../carousels/carousel2";
 
 
@@ -10,7 +10,7 @@ import CarouselType2 from "../../carousels/carousel2";
 
 const Dashboard = () =>
     <div className='bg-primary'>
-        <Index/>
+        <CarouselType1/>
         <AboutCard/>
             <ProducerCard/>
             <CarouselType2/>

@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccb9cc8d-a9d2-4492-a4c6-3d1289e9f470" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/carousels/carousel2/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/carousels/carousel2/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cards/ProdCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cards/ProdCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/carousels/carouselType1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carousels/carousel1/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/carousels/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carousels/carousel1/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carousels/carousel1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carousels/carousel1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/page-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/page-container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/Dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Dashboard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +128,7 @@
       <workItem from="1584783789309" duration="5949000" />
       <workItem from="1584806122609" duration="51062000" />
       <workItem from="1585646103205" duration="11405000" />
-      <workItem from="1585733874559" duration="12977000" />
+      <workItem from="1585733874559" duration="14276000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1584535127697</created>
@@ -165,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585661100116</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="netflix carousel">
+      <created>1585761977646</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585761977646</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,17 +176,19 @@
     <MESSAGE value="init" />
     <MESSAGE value="animations added" />
     <MESSAGE value="media querry" />
-    <option name="LAST_COMMIT_MESSAGE" value="media querry" />
+    <MESSAGE value="netflix carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="netflix carousel" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584356041541">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585763108531">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585763108531" />
     <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.798/1440.23.1920.1057@0.23.1440.798" timestamp="1584356041541" />
-    <state x="322" y="23" key="CommitChangelistDialog2" timestamp="1585661099740">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="322" y="23" key="CommitChangelistDialog2" timestamp="1585761976850">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="322" y="23" key="CommitChangelistDialog2/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585655397249" />
+    <state x="322" y="23" key="CommitChangelistDialog2/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585761976850" />
     <state x="322" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1584535127227" />
     <state x="322" y="23" key="CommitChangelistDialog2/0.23.1440.877/1440.23.1920.977@0.23.1440.877" timestamp="1585661099740" />
     <state width="1419" height="98" key="GridCell.Tab.0.bottom" timestamp="1585661165429">
@@ -217,10 +219,10 @@
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.23.1440.798/1440.23.1920.1057@0.23.1440.798" timestamp="1584356056273" />
-    <state x="320" y="170" key="Vcs.Push.Dialog.v2" timestamp="1585661104257">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1585761984809">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585655407992" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585761984809" />
     <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1584535261342" />
     <state x="320" y="170" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.23.1920.977@0.23.1440.877" timestamp="1585661104257" />
     <state x="384" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1585753474964">

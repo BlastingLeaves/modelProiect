@@ -4,9 +4,10 @@ import Footer from "../footer";
 
 
 
+
 const PageContainer = props =>
     <>
-        <div className="app-header">
+        <div className="app-header sticky top-0 z-10">
             <Navbar/>
         </div>
         <div className='app-page'>

@@ -13,7 +13,7 @@ import './styles.scss'
 //     }
 // })
 const Navbar = () =>
-    <nav className='bg-secondaryLight '>
+    <nav className='bg-secondaryLight sticky'>
         <AppBar/>
     </nav>
 

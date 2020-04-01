@@ -8,7 +8,7 @@ import './styles.scss'
 
 
 
-const Index = () =>
+const CarouselType1 = () =>
     <div className='containerTop w-full lg:max-w-full lg:flex' >
             <div className='textTop text-center px-5 py-4 text-secondaryLight bg-primary '>
                 <h1 className='titleTop pb-6 pt-8'>DESPRE NOI</h1>
@@ -33,4 +33,4 @@ const Index = () =>
             </div>
         </Carousel>
     </div>
-export default Index
+export default CarouselType1
