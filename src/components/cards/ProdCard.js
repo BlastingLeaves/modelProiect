@@ -32,7 +32,7 @@ const ProducerCard = () =>
                 <img src={BW2} className='pic2 relative flex ' data-aos='fade-right' alt='pic2'/>
             </div>
 
-            <div className='text1 text-center px-5 py-2 sm:py-5 text-secondaryLight bg-primary'
+            <div className='text2 text-center px-5 py-2 sm:py-5 text-secondaryLight bg-primary'
             data-aos='fade-left'>
                 <h1 className='titleProd pb-2 sm:pb-3'>Lorems</h1>
 

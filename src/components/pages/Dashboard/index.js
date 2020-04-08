@@ -8,6 +8,7 @@ import CarouselType2 from "../../carousels/carousel2";
 
 
 
+
 const Dashboard = () =>
     <div className='bg-primary'>
         <CarouselType1/>

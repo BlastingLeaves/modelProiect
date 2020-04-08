@@ -7,7 +7,8 @@ const Footer = () =>
     <div className='footerContainer relative bg-primaryLight'>
 
         {/*carte de vizita*/}
-        <div className='contactContainer pb-2 ml-2 rounded-md bg-secondary'>
+        <div className='contactContainer pb-2 rounded-md bg-secondary'
+        data-aos='fade-down'>
 
             <div className="contact-card text-left text-secondaryLight pt-3 pl-3">
                 <i className="fa fa-envelope pr-1"/>

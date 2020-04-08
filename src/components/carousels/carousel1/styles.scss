@@ -1,20 +1,16 @@
-@keyframes heartbeat
-{
+@keyframes heartbeat {
   //0%
   //{
   //  transform: scale( .75 );
   //}
-  20%
-  {
-    transform: scale( 1 );
+  20% {
+    transform: scale(1);
   }
-  40%
-  {
-    transform: scale( .75 );
+  40% {
+    transform: scale(.75);
   }
-  60%
-  {
-    transform: scale( 1 );
+  60% {
+    transform: scale(1);
   }
   //80%
   //{
@@ -27,9 +23,9 @@
 }
 
 
-.containerTop{
-  max-width: 100%;
-  max-height: 70%;
+.containerTop {
+  width: 100%;
+  height: 70%;
   display: flex;
   position: relative;
   justify-content: center;
@@ -38,47 +34,52 @@
 
 }
 
-.Carousel{
+.Carousel {
   height: 70%;
   width: 100%;
   text-align: center;
 }
-.CarouselItem{
+
+.CarouselItem {
   max-height: 100%;
-  max-width:100%;
+  max-width: 100%;
   overflow: hidden;
   object-fit: cover;
   display: flex;
 }
 
-.CarouselItem img{
+.CarouselItem img {
   height: 300px;
   width: 100%;
   display: flex;
 }
-.Indicators{
+
+.Indicators {
   display: none;
 }
-.textTop{
+//nu merge padding de aici
+.textTop {
   position: relative;
   width: 75%;
   height: 300px;
   font-size: 8px;
+  padding-top: 10%;
   border-bottom-right-radius: 5%;
   box-shadow: 0 4px 2px -2px #1e1e1e;
 }
 
-.titleTop{
+.titleTop {
   font-size: 20px;
   position: relative;
 }
-.miniTextTop{
+
+.miniTextTop {
   font-size: 10px;
   position: relative;
 }
 
 .Carousel .Button.Next,
-.Carousel .Button.Prev{
+.Carousel .Button.Prev {
   display: none;
 }
 
@@ -90,22 +91,60 @@
   animation: heartbeat 3s infinite;
 }
 
-@media screen and (max-width: 636px){
-  .titleTop{
+@media screen and (max-width: 636px) {
+  .titleTop {
     font-size: 10px;
     position: relative;
   }
-  .miniTextTop{
+  .miniTextTop {
     position: relative;
     font-size: 5px;
   }
+  .Carousel {
+    height: 30%;
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .containerTop {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  .textTop {
+    order: 2;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    font-size: 8px;
+    border-bottom-right-radius: 5%;
+    box-shadow: 0 4px 2px -2px #1e1e1e;
+
+  }
+  .Carousel {
+    order: 1;
+    height: 50%;
+  }
+  .bookLogo2 {
+    z-index: 1;
+    width: 60px;
+    top: -45px;
+    left: 39%;
+    animation: heartbeat 3s infinite;
+  }
+
 }
-@media screen and (min-width: 700px){
-  .titleTop{
+
+@media screen and (min-width: 700px) {
+  .titleTop {
     font-size: 20px;
     position: relative;
   }
-  .miniTextTop{
+  .miniTextTop {
     position: relative;
     font-size: 10px;
   }
