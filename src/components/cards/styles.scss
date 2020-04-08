@@ -14,8 +14,8 @@
 .text1{
   z-index: 1;
   position: relative;
-  max-width: 250px;
-  max-height: 170px;
+  width: 230px;
+  height: 170px;
   box-shadow: 0 1px 3px 1px black;
 }
 .miniTextProd{
@@ -23,8 +23,10 @@
   position: relative;
 }
 .textProd{
-  font-size: 14px;
+  z-index: 1;
+  font-size: 25px;
   position: relative;
+  top: -15px;
 }
 
 .pic1 {
@@ -53,36 +55,34 @@
     position: relative;
     font-size: 5px;
   }
-  .text2{
-    width: 150px;
-    height: 100px;
-    top:-15px;
-    right: 10px
-  }
   .text1{
     width: 150px;
     height: 100px;
-    top:-15px;
-    left: 15px
   }
-.containerProd{
-  height: 180px;
-}
+  .text2{
+    width: 150px;
+    height: 100px;
+    right: 20px;
+  }
   .pic1{
     width: 130px;
    height: 250px;
     top: -80px;
-    left: -5px;
-
   }
   .pic2{
     width: 130px;
     height: 250px;
+    right: 0;
   }
   .textProd{
-    font-size: 14px;
+    z-index: 1;
+    top: -15px;
+    font-size: 20px;
     position: relative;
-    padding-left: 5px;
+    padding-left: 5%;
+  }
+  .containerProd{
+    height: 180px;
   }
 }
 
